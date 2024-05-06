@@ -24,8 +24,8 @@ version '1.0-SNAPSHOT'
 compileJava.options.encoding = "UTF-8"
 compileTestJava.options.encoding = "UTF-8"
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+sourceCompatibility = 17
+targetCompatibility = 17
 
 repositories {
     mavenCentral()
@@ -33,8 +33,8 @@ repositories {
 
 ext {
     slf4jVersion = '1.7.7'
-    serenityCoreVersion = '3.3.4'
-    serenityCucumberVersion = '3.3.4'
+    serenityCoreVersion = '3.6.23'
+    serenityCucumberVersion = '3.6.23'
     junitVersion = '5.8.2'
     assertJVersion = '3.22.0'
     logbackVersion = '1.2.10'
@@ -70,7 +70,6 @@ dependencies {
 
 }
 test {
-    useJUnitPlatform()
     testLogging.showStandardStreams = true
     systemProperties System.getProperties()
 }
@@ -83,4 +82,5 @@ serenity {
 }
 
 gradle.startParameter.continueOnFailure = true
+
 test.finalizedBy(aggregate)

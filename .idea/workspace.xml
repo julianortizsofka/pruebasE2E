@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ded896dc-0e5d-4896-a68e-b0a45b5aa0cf" name="Changes" comment="Iniciamos el proyecto de prueba E2E">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/tasks/marketplace/AddToCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/ui/login/CartUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/ui/login/MarketplaceUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/ui/login/ThankuPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/runners/PruebaE2ERunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/runners/PruebaE2ERunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/stepdefinition/PruebaE2EStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/stepdefinition/PruebaE2EStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,19 +68,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\julian.ortiz.SOFKA\IdeaProjects\pruebasE2E\src\test\resources\feature\pruebaE2E" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PruebaE2ERunner">
+  <component name="RunManager" selected="Gradle.PruebaE2ERunner (1)">
     <configuration name="Scenario:  (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feature/pruebaE2E/pruebae2e.feature" />
@@ -119,7 +130,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PruebaE2ERunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PruebaE2ERunner (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -144,7 +155,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PruebaE2ERunner" />
+        <item itemvalue="Gradle.PruebaE2ERunner (1)" />
         <item itemvalue="Cucumber Java.Scenario:  (1)" />
         <item itemvalue="Cucumber Java.Scenario: " />
       </list>
@@ -166,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715027842506</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Iniciamos el proyecto de prueba E2E">
+      <created>1715027903397</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715027903397</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -1,5 +1,6 @@
 package com.saucedemo.stepdefinition;
 
+import com.saucedemo.tasks.marketplace.AddToCart;
 import com.saucedemo.tasks.navigate.Authenticate;
 import com.saucedemo.tasks.navigate.NavigateTo;
 import io.cucumber.java.Before;
@@ -11,6 +12,7 @@ import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
+import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 public class PruebaE2EStepDefinition {
     String name;
@@ -32,6 +34,10 @@ public class PruebaE2EStepDefinition {
     }
     @When("add two products to the shopping cart and complete the purchase")
     public void addTwoProductsToTheShoppingCartAndCompleteThePurchase() {
+        theActorInTheSpotlight().attemptsTo(
+                AddToCart.twoProducts()
+
+        );
 
     }
     @Then("the customer will see the confirmation of their purchase {string}")
