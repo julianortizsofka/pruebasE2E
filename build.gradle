@@ -77,7 +77,7 @@ test {
 serenity {
     testRoot = "com.saucedemo.runners"
     requirementsBaseDir = "src/test/resources/feature/pruebaE2E"
-    reports = ["single-page-html"]
+
 
 }
 

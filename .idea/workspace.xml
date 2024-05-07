@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ded896dc-0e5d-4896-a68e-b0a45b5aa0cf" name="Changes" comment="Iniciamos el proyecto de prueba E2E">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/questions/SearchInCheckout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/questions/SearchInThankyouPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/tasks/marketplace/CompleteThe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/utils/Constants.java" afterDir="false" />
+    <list default="true" id="ded896dc-0e5d-4896-a68e-b0a45b5aa0cf" name="Changes" comment="hemos avanzado agregando productos">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedemo/tasks/marketplace/AddToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/tasks/marketplace/AddToCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedemo/ui/login/ThankuPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/ui/login/ThankuPageUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/stepdefinition/PruebaE2EStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/stepdefinition/PruebaE2EStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/feature/pruebaE2E/pruebae2e.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/feature/pruebaE2E/pruebae2e.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +74,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/julian.ortiz.SOFKA/IdeaProjects/pruebasE2E",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -89,6 +84,9 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.saucedemo.questions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\julian.ortiz.SOFKA\IdeaProjects\pruebasE2E" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\julian.ortiz.SOFKA\IdeaProjects\pruebasE2E\src\test\resources\feature\pruebaE2E" />
@@ -185,7 +183,6 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <recent_temporary>
