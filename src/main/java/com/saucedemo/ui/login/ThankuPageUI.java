@@ -4,5 +4,5 @@ import org.openqa.selenium.By;
 
 public class ThankuPageUI {
 
-    public static By LBLCART = By.xpath("//*[@id=\"checkout_complete_container\"]/h2");
+    public static By LBLTHANKYOU = By.xpath("//*[@id=\"checkout_complete_container\"]/h2");
 }
