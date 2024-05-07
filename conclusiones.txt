@@ -1,0 +1,8 @@
+Hallazgos y conclusiones
+
+
+La página de saucedemo para hacer pruebas E2E permite mapear fácilmente los elementos de la página, también tiene buenas practicas de accesibilidad.
+
+Serenity BDD es un framework que permite pruebas en Frontend y en Backend, podría permitir un flujo completo y comprobar que los productos, precios y cantidades seleccionadas en la prueba sean los que llegaron a los microservicios de Backend.
+
+Se configuró la automatización con Microsoft Edge, debido a que al estar integrado con Windows 11, los tiempos de ejecución son menores que con Chrome, adicionalmente siempre suele estar actualizado con el sistema operativo y al se un navegador basado en Chromiun el mapeo y visualización de como se cargan los elementos en el POM es idéntica a Chrome que es el navegador más usado en el mercado.
